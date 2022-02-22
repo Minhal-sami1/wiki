@@ -1,7 +1,5 @@
 import secrets
-from turtle import title
 from django.urls import reverse
-from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from markdown2 import markdown
 from . import util
